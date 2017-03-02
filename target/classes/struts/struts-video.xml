@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ <package name="video" extends="struts-default" namespace="">
+ 	<action name="getUser" class="edu.sdu.video.action.UserAction"  method="getUser">
+ 	</action>
+ 	<action name="getTest" class="edu.sdu.video.action.UserAction" method="getTest">
+ 	</action>
+ </package>
+</struts>
